@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "role",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "hasRole",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ViperGovernorTimelockAttack.sol": "TimelockAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ViperGovernorTimelock.sol": {
+			"keccak256": "0xb423c4fb27156daa2b039f422fe93d37d450510518e09b204f2ca18b92a2a4ae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e28b04a6f7ae76693bc3d575789994a114bdd59876b4f383157b2d33b04611b",
+				"dweb:/ipfs/QmYdLQn1gFt58fU3YQFZUMYYaGPvpJxkR4Ye6Gv26qe3LF"
+			]
+		},
+		"contracts/ViperGovernorTimelockAttack.sol": {
+			"keccak256": "0xfa541a91ba43d0b9871ccb7e43d90565281ba22a4b3daf903ebc6286c54f865c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://13495c558a1d30f846487d80cb862b8dc3cc8c62d2deabdef6bdc4b10417f4e8",
+				"dweb:/ipfs/QmeudW91pt69aQ2wY5FrUaA51TUZ1qWxYcm9kNYXTY1F4i"
+			]
+		}
+	},
+	"version": 1
+}

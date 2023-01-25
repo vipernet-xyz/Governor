@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "role",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "hasRole",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ViperGovernorTimelock.sol": "TimelockController"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ViperGovernorTimelock.sol": {
+			"keccak256": "0xb423c4fb27156daa2b039f422fe93d37d450510518e09b204f2ca18b92a2a4ae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e28b04a6f7ae76693bc3d575789994a114bdd59876b4f383157b2d33b04611b",
+				"dweb:/ipfs/QmYdLQn1gFt58fU3YQFZUMYYaGPvpJxkR4Ye6Gv26qe3LF"
+			]
+		}
+	},
+	"version": 1
+}
